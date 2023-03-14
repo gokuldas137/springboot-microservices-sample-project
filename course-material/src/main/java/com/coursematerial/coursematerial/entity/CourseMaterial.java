@@ -24,5 +24,7 @@ public class CourseMaterial {
     private Long courseMaterialId;
     private String courseName;
 
+    //    url is the link to course material
+
     private String url;
 }
