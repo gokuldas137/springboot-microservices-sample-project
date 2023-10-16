@@ -36,7 +36,7 @@ public class CourseController {
         return courseService.getCourseDetailsByIds(courseIds);
     }
 
-    @GetMapping("hi")
+    @GetMapping("/hi")
     public String getHi() {
         return "hi";
     }
