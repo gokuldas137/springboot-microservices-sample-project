@@ -35,4 +35,10 @@ public class CourseController {
     public List<Course> getCourseDetailsByIds(@PathVariable List<Long> courseIds) {
         return courseService.getCourseDetailsByIds(courseIds);
     }
+
+    @GetMapping("hi")
+    public String getHi() {
+        return "hi";
+    }
+
 }
